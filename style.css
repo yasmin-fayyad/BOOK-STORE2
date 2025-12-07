@@ -64,3 +64,31 @@ section nav.social_icon i:hover{
     color: #089da1;
     cursor: pointer;
 }
+section main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 10%;
+}
+section .main h1{
+   font-size: 3.5rem;;
+   color: #000;
+}
+section .main h1 span{
+    color: #089da1;
+}
+section .main p{
+    width: 650px;
+    line-height: 22px;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+section .main .main_btn{
+    background: #089da1;
+    padding: 0.625rem 1.25rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
