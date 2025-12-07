@@ -1,0 +1,22 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 3.125rem;
+     background-color: #f9f9f9;
+} 
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 1.5625rem;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+ nav .logo.img{
+    margin-left: 1.25rem;
+    cursor: pointer;
+ }
+ 
