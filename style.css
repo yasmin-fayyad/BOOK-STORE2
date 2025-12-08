@@ -84,11 +84,41 @@ section .main p{
     text-align: justify;
     margin: 20px 0;
 }
-
 section .main .main_btn{
     background: #089da1;
     padding: 0.625rem 1.25rem;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
+}
+/* services */ 
+
+.services{
+margin: 2.5rem 0;
+width: 100%;
+height: auto;
+}
+.services .servicesbox{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.services.servicesbox.servicescard{
+    width: 20rem;
+    text-align: center;
+    height: auto;
+    box-shadow:  0 0 0.5rem #089da1;
+    padding:  1rem 0.7rem;
+    margin: 1rem;
+}
+.services.servicesbox.servicescard i{
+color: #089da1;
+font-size: 3rem;
+margin-bottom: 1rem;
+cursor: pointer;
+}
+.services.servicesbox.servicescard h3{
+    margin-bottom: 0.7rem;
 }
