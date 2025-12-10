@@ -24,6 +24,7 @@ z-index: 1000;
  nav ul{
      display:flex;
     list-style:none;
+    gap: 50px;
     /*Scroll margin أعلى لكل الأقسام حتى لا يغطيها الـ nav الثابت */
  }
  #home,
@@ -96,8 +97,8 @@ header {
   flex: 1 1 400px;
   text-align: left;
   color: #444;
-}
 
+}
 .main-text h1 {
   font-size: 40px;
   margin-bottom: 10px;
