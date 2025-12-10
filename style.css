@@ -17,7 +17,7 @@ left: 0;
 z-index: 1000; 
 } 
 
- nav image{
+ nav img{
     height: auto;
     width: 5rem;
  }
@@ -26,9 +26,9 @@ z-index: 1000;
     list-style:none;
     /*Scroll margin أعلى لكل الأقسام حتى لا يغطيها الـ nav الثابت */
  }
- #Home,
+ #home,
 #about,
-#featured,
+#Featured,
 #arrivals,
 #reviews,
 #blog {
@@ -73,15 +73,12 @@ body {
   font-family: sans-serif;
 }
 header {
-  background-image: url("images/bg.png");
+  background-image: url("image/bg.png");
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
   padding: 40px 0;              
 }
-
-
-   
 .main-section {
   display: flex;
   flex-wrap: wrap;
@@ -194,8 +191,9 @@ justify-content: space-between;
 flex-wrap: wrap;
 }
 .about .about-image img{
-width:800px;
-max-width: 100%;
+width:90%;
+max-width: 300px;
+margin-bottom: 20px ;
 }
 .about .about-tag p{
 line-height: 1.5;
@@ -211,7 +209,7 @@ padding: 10px 20px;
 background-color: #089da1;
 text-decoration: none;
 color: #fff;
-position: block;
+display: inline-block;
 margin: 0 auto;
 }
 /* Featured Books */

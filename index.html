@@ -8,13 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <title>BOOK STORE</title>
      <!-- CSS File -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section id="home">
      <!-- ===== Dark Mode Toggle ===== -->
      <input type="checkbox" id="darkModeToggle" hidden>
       <label for="darkModeToggle" class="dark_btn">
@@ -25,8 +23,8 @@
     <label for="navToggle" class="hamburger">
         <i class="fa-solid fa-bars"></i>
     </label>
-<nav>
-            <img src="image/logo.png" alt="logo book" id="home">
+<nav id ="Home">
+            <img src="image/logo.png" alt="logo book">
                <input type="checkbox" hidden id="menu">
               <label for="menu">
         <i class="fa-solid fa-bars open"></i>
@@ -46,18 +44,17 @@
             <i class="fa-solid fa-heart"></i>
         </div>
     </nav>
-    </section>
     <header>
 
 <div class="main-section">
     <div class="main-text">
-        <h1>WELCOME TO<br><span class="book">BOOK STORE</span></h1>
+        <h1>WELCOME TO</h1 > <h1 class="book">BOOK STORE</h1> 
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vel sint eaque 
         ullam consequuntur suscipit quidem! Deleniti enim esse quae commodi culpa nihil 
         sequi aut facere. Nihil unde neque a!</p>
         <a href="#" class="button">Learn More</a>
     </div>
-    <div class="main-img">
+    <div class="main-image">
       <img src="image/table.png" alt="main Image">
     </div>
 </div>
@@ -65,6 +62,7 @@
 <br>
 
    <!-- services-->
+    <section>
     <div class="services-box">
         <div class="services-card">
             <i class="fa-solid fa-truck-fast"></i>
@@ -85,9 +83,8 @@
             <i class="fa-solid fa-lock"></i>
             <h3>Secure Payment</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-        </div>
     </div>
-</div>
+    </section>
 <!-- about us-->
  <section>
  <div class="about">
@@ -109,7 +106,7 @@
  </section>
  <!--finail part-->
  <div class="featured_book" id="Featured">
-    <h1>Featured_books</h1>
+    <h2>Featured_books</h2>
     <div class="featured_books_box">
         <div class="container"> <div class="book_item"> 
                 <img src="image/book_1.jpg" alt="book 1">
