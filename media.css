@@ -1,3 +1,12 @@
+/* Responsive mobile navigation bar */
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
 
 @media (max-width:768px){
  
