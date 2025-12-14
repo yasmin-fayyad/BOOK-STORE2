@@ -343,3 +343,56 @@ body:has(option[value="dark"]:checked){
     background-color: #089da1;
     color: #fff;
 }
+/* review style */
+.section-title{
+
+    text-align:center;
+font-size: 32px;
+margin-top: 40px;
+margin-bottom: 20px;
+font-weight: bold;
+
+}
+
+.reviews-container{
+width:90%;
+margin:auto;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 25px;
+
+}
+
+.review-card{
+background: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px #ccc;
+
+}
+
+.review-img{
+width: 60px;
+height: 60px;
+border-radius: 50%;
+}
+
+.review-name{
+margin: 10px 0;
+font-size:20px ;
+font-weight: bold;
+
+}
+
+.review-text{
+font-size: 14px;
+color: #555;
+
+
+}
+.stars2{
+margin-top: 10px;
+color: #00A8E8;
+font-size: 20px;
+
+}
