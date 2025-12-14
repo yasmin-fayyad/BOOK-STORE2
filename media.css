@@ -204,3 +204,135 @@
         margin: 0 auto 15px auto;
     }
   }
+  @media (max-width: 992px){
+
+    /* كتاب */
+    .books-container {
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .reviews-container {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .digital-book {
+        height: 320px;
+    }
+
+    .digital-book .learn-btn {
+        left: 40px;
+        bottom: 22px;
+        padding: 11px 24px;
+        font-size: 15px;
+    }
+
+    /* BLOG */
+    .blog-card {
+        width: 48%;
+        margin: 1%;
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    /* FOOTER */
+    .footer-inner {
+        grid-template-columns: repeat(2,1fr);
+        gap: 25px;
+        text-align: left;
+    }
+}
+
+
+
+/* ============================================================= */
+/* ================== RESPONSIVE FOR SMALL TABLETS ============== */
+/* ============== (مثلاً بين 600px و 780px) ====================== */
+/* ============================================================= */
+
+@media (max-width: 780px){
+
+    .blog-card{
+        width:100%;
+        float:none;
+        margin-bottom: 25px;
+    }
+
+    .blog-title{
+        font-size: 26px;
+    }
+
+    .blog-img{
+        height: 200px;
+    }
+
+    .blog-name{
+        font-size: 17px;
+        padding: 10px 8px;
+    }
+}
+
+
+
+
+/* ============================================================= */
+/* ================= RESPONSIVE FOR MOBILES ==================== */
+/* ============================================================= */
+
+@media (max-width: 600px){
+
+    /* الكتب */
+    .book-container {
+        grid-template-columns: 1fr;
+    }
+
+    .book-card img {
+        height: 180px;
+    }
+
+    .section-title {
+        font-size: 26px;
+    }
+
+    .reviews-container {
+        grid-template-columns: 1fr;
+    }
+
+    .digital-book {
+        height: 260px;
+    }
+
+    .digital-book .learn-btn {
+        font-size: 14px;
+        padding: 10px 18px;
+        bottom: 14px;
+        left: 18px;
+    }
+
+
+    /* FOOTER */
+    .footer-inner {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .newsletter-form {
+        width: 100%;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .newsletter-btn {
+        width: 100%;
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    .socials {
+        justify-content: center;
+    }
+
+    .footer-col h4 {
+        margin-top: 15px;
+    }
+}
